@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+
+body {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-family: "Michroma", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head {
+  text-align: center;
+  font-family: "Michroma", Tahoma, Geneva, Verdana, sans-serif;
+}
+.box-container {
+  border: 2px black solid;
+  text-align: left;
+  margin: 10px;
+  padding: 5px;
+  color: grey;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+#submit {
+  padding: 10px;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+#submit {
+  color: grey;
+}

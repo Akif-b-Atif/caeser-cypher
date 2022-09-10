@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akif's Encryption system (top secret)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Encryption system</h1>
+    <div class="main">
+        <div id="encrypt-box" class="box-container">
+            <h2 class="head">Encrypt</h2>
+            <p>Msg:
+                <input type="text" id="encrypt-input" class="input">
+            </p>
+            <p>Key:
+                <span id="key"></span>
+            </p>
+            <p>Code:
+                <span id="code"></span>
+            </p>
+        </div>
+        <div id="decrypt-box" class="box-container">
+            <h2 class="head">Decrypt</h2>
+            <p>Code:
+                <input type="text" id="decrypt-input" class="input">
+            </p>
+            <p>Key:
+                <input type="text" id="key-input" class="input">
+            </p>
+            <p>Msg:
+                <span id="message"></span>
+            </p>
+        </div>
+        </p>
+    </div>
+    <p>
+        <input type="radio" name="option" id="option-E" /><span>Encrypt</span>
+        <input type="radio" name="option" id="option-D" /><span>Decrypt</span>
+    </p>
+    <button id="submit">Submit</button>
+    <script src="main.js"></script>
+</body>
+
+</html>
